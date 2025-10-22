@@ -1,0 +1,38 @@
+name: splitfree
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase Services
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.14.0
+
+  # State Management
+  flutter_riverpod: ^2.4.9
+
+  # Date Formatting
+  intl: ^0.18.1
+
+  # ✅ FIX: Add this line to resolve the web build error
+  js: ^0.7.1
+  url_launcher: ^6.2.5
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
