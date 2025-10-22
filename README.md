@@ -1,16 +1,20 @@
-# splitfree
+# SplitFree 💸  
+A simple and smart expense-splitting app built using **Flutter & Firebase**.  
+It helps users track shared expenses, split bills among friends, and manage group transactions—similar to Splitwise.
 
-A new Flutter project.
+---
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+✔ Create groups and add friends  
+✔ Add, edit, and delete expenses  
+✔ Automatically splits the amount per person  
+✔ Track who owes whom  
+✔ Firebase Authentication (Google/Email login)  
+✔ Real-time data sync using Firebase Firestore  
+✔ Works on Android, iOS, and Web (Flutter)
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📂 Project Structure
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
